@@ -100,9 +100,14 @@ function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+  var num2 = 50
+  if(num > num2 ){
+    return(true);
+  }else{
+    return(false);
+  }
 }
-
+mayorQueCincuenta(80);
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
