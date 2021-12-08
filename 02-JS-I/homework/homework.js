@@ -111,7 +111,8 @@ mayorQueCincuenta(80);
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  
+ var div = x % y;
+ return(div);
 }
 
 function esPar(num) {
