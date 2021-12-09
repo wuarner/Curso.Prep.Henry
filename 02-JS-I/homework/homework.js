@@ -156,13 +156,18 @@ function elevarAlCuadrado(num) {
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
+  var cubo = 3;
+  var cub =  Math.pow(num,cubo);
+  return(cub);
+
   
 }
 
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-  
+  var elevado = Math.pow(num,exponent);
+  return(elevado);
 }
 
 function redondearNumero(num) {
