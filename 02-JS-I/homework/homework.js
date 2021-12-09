@@ -182,13 +182,19 @@ function redondearNumero(num) {
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
+   var arriba = 10;
+   var devuelve = Math.ceil(num % arriba);
+   return(devuelve);
   
 }
 
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  
+  var rando = 0;
+  var rando1 = 1;
+  var generar = Math.random(rando % rando1);
+  return(generar);
 }
 
 function esPositivo(numero) {
